@@ -49,7 +49,7 @@ namespace Grade_Calculator
                 else
                     Console.WriteLine("Grade: F");
 
-                Console.Write("\nWould you like to enter another grade? (y/n): ");
+                Console.Write("Would you like to enter another grade? (y/n): ");
                 string choice = Console.ReadLine();
 
                 if (choice.ToLower() != "y")
@@ -57,8 +57,6 @@ namespace Grade_Calculator
                     runAgain = false;
                     Console.WriteLine("Exiting Application......");
                 }
-
-                Console.WriteLine();
             }
         }
     }
