@@ -1,6 +1,6 @@
 # Assignment 1 - DCIT 318
 
-This solution contains three simple C# console applications:
+This solution contains three C# console applications:
 
 1. **GradeCalculator**  
    Prompts the user to enter a numerical grade (0–100) and returns the corresponding letter grade (A–F).
